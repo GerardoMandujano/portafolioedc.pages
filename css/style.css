@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(200, 212, 212);
+    height: 50px;
+}
+
+nav .logo {
+    align-self: center;
+    justify-content: start;
+}
+
+nav .logo h1 {
+    color: red;
+}
+
+nav .logo span {
+    color: orange;
+    font-size: 12px;
+}
+
+nav .menu {
+    align-self: center;
+}
+
+nav .menu ul {
+    margin-left: 60px;
+}
+
+nav .menu li {
+    display: inline-block;
+}
+
+nav .menu a {
+    margin: 10px;
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 20px;
+    color: rgb(139, 90, 29);
+}
+
+header {
+    background-image: url("../img/banner.jpg");
+    margin: 0 auto;
+    width: 90%;
+    height: 75vh;
+    display: block;
+}
+
+header #titulo-banner,
+#parrafo-banner {
+    text-align: center;
+    color: rgb(220, 230, 230);
+}
+
+header h1 {
+    padding-top: 20%;
+}
+
+header p {
+    margin: 0 20%;
+}
+
+main .trabajos {
+    padding: 15px;
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.tarjeta-trabajo {
+    margin: 10px;
+}
+
+main .tarjeta-trabajo h1 {
+    text-align: center;
+}
+
+.tarjeta-trabajo p {
+    text-align: justify;
+}
+
+main .tarjeta-trabajo img {
+    align-self: center;
+    margin: 10px auto;
+}
+
+footer {
+    width: 90%;
+    text-align: center;
+}
